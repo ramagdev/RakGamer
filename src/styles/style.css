@@ -19,9 +19,9 @@ main {
 }
 
 game-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2vw;
   margin-top: 32px;
   width: 100%;
   justify-content: center;
@@ -38,4 +38,8 @@ footer {
   position: relative;
   bottom: 0;
   font-family: 'Courier New', Courier, monospace;
+}
+
+footer a {
+  color: white;
 }
