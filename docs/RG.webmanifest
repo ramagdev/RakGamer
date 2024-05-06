@@ -1,0 +1,10 @@
+{
+    "name": "Rak Gamer",
+    "short_name": "RG",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": ".",
+    "description": "Search and Collect",
+    "theme_color": "#8b008b",
+    "background_color": "#cf6ecf"
+}

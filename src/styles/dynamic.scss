@@ -1,0 +1,36 @@
+$secondary-color: #cf6ecf;
+
+/* LOADING INDICATOR*/
+
+#loading {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+    width: fit-content;
+    display: none;
+    color: white;
+    font-weight: bold;
+    background-color: $secondary-color;
+    padding-inline: 5px;
+    border-radius: 5px;
+}
+  
+#loading .spinner {
+  animation: rotate 2s linear infinite;
+  border: 4px solid #ddd;
+  border-top-color: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
